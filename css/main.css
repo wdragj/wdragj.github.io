@@ -8,6 +8,7 @@
 
 body {
   margin: 0;
+  background-color: #EAEAEA;
 }
 
 h1 {
@@ -144,6 +145,7 @@ p {
   margin: 0 auto;
   position: relative;
   display: block;
+  border-bottom: 3px solid #222831;
 }
 
 .div-post-area {
@@ -159,9 +161,9 @@ p {
 
 .div-footer {
   background-color: #393E46;
-  height: 150px;
+  height: 100px;
   position: relative;
-  bottom: 0px;
+  bottom: 0;
   position: relative;
 
   justify-content: center;
