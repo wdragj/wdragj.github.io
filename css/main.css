@@ -8,21 +8,22 @@
 
 body {
   margin: 0;
-  background-color: #EAEAEA;
-}
-
-h1 {
-  border: 0;
-  margin-top: 0;
-}
-
-p {
-  margin: 0;
+  background-color: #DCD6F7;
 }
 /***************************************** Class Selectors *****************************************/
-.footer-icon {
-  position: relative;
-  top: 5px;
+
+.grid-body {
+  display: grid;
+  grid-template-areas: 
+    "navbar    navbar    navbar"
+    "intro     intro     intro"
+    "left      content   right"
+    "footer    footer    footer";
+  
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: auto auto 1fr auto;
+
+  min-height: 100vh;
 }
 
 .container {
@@ -43,6 +44,8 @@ p {
   background-color: #393E46;
   padding: 16px 32px;
   border-bottom: 3px solid #222831;
+
+  grid-area: navbar;
 }
 
 .nav-title {
@@ -139,24 +142,82 @@ p {
   background-color: #F9F7F7;
   background-image: url("/wdragj.github.io/images/githubimage4.jpg");
   background-repeat: no-repeat;
-  background-size: 1903px 500px;
+  background-size: 100%;
   height: 500px;
-  max-width: 1903px;
-  margin: 0 auto;
+  max-width: 100%;
   position: relative;
-  display: block;
   border-bottom: 3px solid #222831;
+
+  grid-area: intro;
+}
+
+.div-intro h1 {
+  color: #FFFFFF;
+  padding-left: 350px;
+  padding-top: 100px;
+  size: 54px;
+  line-height: 54px;
+  font-size: 54px;
+  font-family: 'Segoe UI', 'Helvetica Neue', "Lucida Grande", Arial, sans-serif;
+}
+
+.div-intro p {
+  color: #FFFFFF;
+  padding-left: 350px;
+  size: 28px;
+  line-height: 2;
+  font-size: 28px;
+  font-family: 'Segoe UI', 'Helvetica Neue', "Lucida Grande", Arial, sans-serif;
 }
 
 .div-post-area {
-  background-color: #b3b3b5;
-  height: 2000px;
-  max-width: 1280px;
-  margin: 0 auto;
+  background-color: #c5c5e4;
   border-left: 3px solid #222831;
   border-right: 3px solid #222831;
-  position: relative;
+
+  grid-area: content;
+}
+
+.grid-post {
+  display: grid;
+  grid-gap: 32px;
+  padding: 32px;
+}
+
+@media (min-width: 960px) {
+  .grid-post {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid-post {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid-post .col {
+  background-color: #DCD6F7;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.grid-post img {
   display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.left-side {
+  grid-area: left;
+
+  background-color: #DCD6F7;
+}
+
+.right-side {
+  grid-area: right;
+
+  background-color: #DCD6F7;
 }
 
 .div-footer {
@@ -167,13 +228,13 @@ p {
   position: relative;
 
   justify-content: center;
+  align-items: center;
   display: flex;
   
-  margin: 0 auto;
-  align-items: center;
-
   border-bottom: 3px solid #222831;
   border-top: 3px solid #222831;
+
+  grid-area: footer;
 }
 
 .div-footer a {
@@ -192,73 +253,8 @@ p {
   background-color: #00ADB5;
 }
 
-.div-post-title {
-  background-color: #FFFFFF;
-  text-align: center;
-}
-
-.div-post-1 {
-  background-color: #FFFFFF;
-  height: 300px;
-  margin-top: 150px;
-}
-
-.div-post-2 {
-  background-color: #FFFFFF;
-  height: 300px;
-  margin-top: 150px;
-}
-
-.div-post-3 {
-  background-color: #FFFFFF;
-  height: 300px;
-  margin-top: 150px;
-}
-
-.div-post-4 {
-  background-color: #FFFFFF;
-  height: 300px;
-  margin-top: 150px;
-}
-
-.div-post-page {
-  background-color: pink;
-  height: auto;
-}
-
-.h1-mainIntro {
-  color: #FFFFFF;
-  padding-left: 350px;
-  padding-top: 100px;
-  size: 54px;
-  line-height: 54px;
-  font-size: 54px;
-  font-family: 'Segoe UI', 'Helvetica Neue', "Lucida Grande", Arial, sans-serif;
-}
-
-.p-mainIntro {
-  color: #FFFFFF;
-  padding-left: 350px;
-  size: 28px;
-  line-height: 2;
-  font-size: 28px;
-  font-family: 'Segoe UI', 'Helvetica Neue', "Lucida Grande", Arial, sans-serif;
-}
-
-.h1-post-title {
-  margin-bottom: 100px;
-  color: #4d4f50;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 70px;
-}
-
-.test1 {
-  float: left;
-  margin-right: 50px;
-}
-
-.test-text1 {
-  margin-right: 50px;
+.div-footer img {
+  position: relative;
+  top: 6px;
 }
 /***************************************** ID Selectors  *****************************************/
