@@ -8,7 +8,8 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -28,26 +29,25 @@
                                 <i class="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
+
                         <li class="nav__item">
                             <a href="#about" class="nav__link">
                                 <i class="uil uil-user nav__icon"></i> About
                             </a>
                         </li>
+
                         <li class="nav__item">
                             <a href="#skills" class="nav__link">
                                 <i class="uil uil-file-alt nav__icon"></i> Skills
                             </a>
                         </li>
+
                         <li class="nav__item">
                             <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i> Portfolio
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#journey" class="nav__link">
                                 <i class="uil uil-diary nav__icon"></i> Journey
                             </a>
                         </li>
+
                         <li class="nav__item">
                             <a href="#contact" class="nav__link">
                                 <i class="uil uil-message nav__icon"></i> Contact
@@ -290,15 +290,67 @@
                 </div>
             </section>
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">Portfolio</h2>
-                <span class="section__subtitle">My personal journey</span>
-            </section>
-
             <!--==================== JOURNEY ====================-->
-            <section class="journey section" id="journey">
-                
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">My Journey</h2>
+                <span class="section__subtitle">My personal journey</span>
+
+                <div class="portfolio__container container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== POST 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Modern Website</h3>
+                                <p class="portfolio__description">Description 1</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== POST 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Brand Design</h3>
+                                <p class="portfolio__description">Description 1</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== POST 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Online Store</h3>
+                                <p class="portfolio__description">Description 1</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                </div>
             </section>
 
             <!--==================== CONTACT ====================-->
@@ -324,14 +376,15 @@
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-         
+        
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
         
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.esm.js"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
