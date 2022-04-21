@@ -798,6 +798,11 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 568px){
+  .container{
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+  
   .home__content{
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -832,8 +837,8 @@ img {
 
 @media screen and (min-width: 768px){
   .container{
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    margin-left: auto;
+    margin-right: auto;
   }
 
   body{
