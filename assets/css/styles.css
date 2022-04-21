@@ -798,11 +798,6 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 568px){
-  .container{
-    margin-left: var(--mb-2);
-    margin-right: var(--mb-2);
-  }
-  
   .home__content{
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -818,6 +813,13 @@ img {
   .contact__container,
   .footer__container{
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about__container,
+  .portfolio__container,
+  .contact__container{
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
   }
 
   .skills__container{
