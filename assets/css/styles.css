@@ -403,7 +403,9 @@ img {
 
 .about__info{
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+  gap: var(--mb-2);
   margin-bottom: var(--mb-2-5);
 }
 
@@ -426,6 +428,7 @@ img {
 .about__buttons{
   display: flex;
   justify-content: center;
+  margin-top: var(--mb-2)
 }
 
 /*==================== SKILLS ====================*/
