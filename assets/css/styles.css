@@ -141,6 +141,14 @@ img {
   padding: 2rem 0 4rem;
 }
 
+.about,
+.skills,
+.portfolio,
+.contact{
+  margin-top: var(--mb-2-5);
+  padding-top: 4rem;
+}
+
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
@@ -422,6 +430,9 @@ img {
 
 /*==================== SKILLS ====================*/
 .skills__container{
+  display: grid;
+  grid-template-columns: .9fr;
+  justify-content: center;
   row-gap: 0;
 }
 
@@ -821,8 +832,8 @@ img {
 
 @media screen and (min-width: 768px){
   .container{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
   }
 
   body{
@@ -961,5 +972,11 @@ img {
   }
   .contact__inputs{
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .portfolio__content{
+    grid-template-columns: repeat(1, 1fr);
   }
 }
