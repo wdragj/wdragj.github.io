@@ -960,7 +960,10 @@ img {
     column-gap: 5rem;
   }
   .portfolio__content{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .portfolio__img{
+    width: 400px;
   }
   .swiper-portfolio-icon{
     font-size: 3.5rem;
@@ -987,8 +990,8 @@ img {
   }
 }
 
-@media screen and (min-width: 1024px){
-  .portfolio__content{
-    grid-template-columns: repeat(1, 1fr);
+@media screen and (min-width: 1600px){
+  .portfolio__img{
+    width: 500px;
   }
 }
