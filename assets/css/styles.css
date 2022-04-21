@@ -305,13 +305,14 @@ img {
   color: var(--first-color-alt);
 }
 
-.home__blob{
-  width: 200px;
-  fill: var(--first-color)
+.home-img__container{
+  justify-self: center;
+  text-align: center;
 }
 
-.home__blob-img{
-  width: 170px;
+.homeself__img{
+  height: 260px;
+  border-radius: 1rem;
 }
 
 .home__data{
@@ -771,7 +772,7 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px){
+@media screen and (max-width: 375px){
   .container{
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -785,17 +786,49 @@ img {
   }
 
   .home__content{
-    grid-template-columns: .25fr 3fr;
-  }
-  .home__blob{
-    width: 180px;
+    grid-template-columns: 1fr;
+    padding-top: 0;
+    column-gap: 0;
   }
   .home__data{
     text-align: center;
   }
+  .home__social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--mb-3);
+  }
+  .home-img__container{
+    grid-column: 1/3;
+  }
+  .homeself__img{
+    height: 200px;
+    justify-self: center;
+  }
 
   .skills__title{
     font-size: var(--normal-font-size);
+  }
+}
+
+@media screen and (max-width: 500px){
+  .home__content{
+    grid-template-columns: 1fr;
+    padding-top: 0;
+    column-gap: 0;
+  }
+  .home__data{
+    text-align: center;
+  }
+  .home__social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--mb-3);
+  }
+  .home-img__container{
+    grid-column: 1/3;
   }
 }
 
@@ -807,9 +840,8 @@ img {
   .home__data{
     grid-column: initial;
   }
-  .home__img{
-    order: 1;
-    justify-self: center;
+  .homeself__img{
+    height: 200px;
   }
 
   .about__container,
@@ -896,8 +928,8 @@ img {
     padding-top: 5.5rem;
     column-gap: 2rem;
   }
-  .home__blob{
-    width: 270px;
+  .homeself__img{
+    height: 240px;
   }
   .home__scroll{
     display: block;
@@ -952,8 +984,8 @@ img {
     padding: 0;
   }
 
-  .home__blob{
-    width: 320px;
+  .homeself__img{
+    height: 260px;
   }
   .home__social{
     transform: translateX(-6rem);
