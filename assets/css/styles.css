@@ -973,6 +973,10 @@ img {
   .contact__inputs{
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .scrollup{
+    right: 80px;
+  }
 }
 
 @media screen and (min-width: 1024px){
