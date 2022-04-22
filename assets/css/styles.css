@@ -741,6 +741,15 @@ img {
   background-color: var(--text-color-light);
 }
 
+/*==================== POSTS ====================*/
+.post__description{
+  font-size: 20px;
+}
+
+.post__img{
+  margin-bottom: var(--mb-2);
+}
+
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (min-width: 300px){
