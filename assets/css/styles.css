@@ -487,51 +487,25 @@ img {
   font-weight: var(--font-medium);
 }
 
-.skills__bar,
-.skills__percentage{
+.skills__bar{
   height: 5px;
   border-radius: .25rem;
+  background-color: var(--first-color)
 }
 
-.skills__bar{
-  background-color: var(--first-color-lighter);
+.skills__logo{
+  font-size: 2rem;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  transform: translateX(-8px);
+  color: var(--first-color);
 }
 
-.skills__percentage{
-  display: block;
-  background-color: var(--first-color);
-}
-
-.skills__html{
-  width: 90%;
-}
-
-.skills__css{
-  width: 80%;
-}
-
-.skills__python{
-  width: 90%;
-}
-
-.skills__react{
-  width: 75%;
-}
-
-.skills__php{
-  width: 60%;
-}
-
-.skills__nodejs{
-  width: 60%;
-}
-
-.skills__firebase{
-  width: 60%;
-}
-
-.skills__java{
-  width: 65%;
+.skills__logoalt{
+  width: 28px;
+  transform: translateX(-6px);
+  fill: var(--first-color);
 }
 
 .skills__close .skills__list{
