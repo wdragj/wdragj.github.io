@@ -586,8 +586,18 @@ img {
   outline: none;
 }
 
-/*==================== TESTIMONIAL ====================*/
+/*==================== JOURNAL ====================*/
+.journal-button__container{
+  text-align: center;
+}
 
+.journal__button{
+  margin-top: var(--mb-3);
+}
+
+.journal__button:hover .button__icon{
+  transform: translateX(.25rem);
+}
 
 /*==================== CONTACT ME ====================*/
 .contact__container{
@@ -779,13 +789,12 @@ table.dataTable thead th,
 table.dataTable thead td {
   padding: 10px 18px;
   border: 2px solid var(--first-color);
-  border-radius: 5px;
+  border-radius: 50px;
   text-align: center;
 }
 
 table.dataTable tbody td {
   border-bottom: 2px solid var(--first-color);
-  /* border-radius: 5px; */
 }
 
 table.dataTable tbody tr :nth-child(2),
@@ -954,6 +963,17 @@ select{
   .footer__social{
     margin: 0;
   }
+
+  .table{
+    padding: 0;
+  }
+
+  table.dataTable thead th,
+  table.dataTable thead td {
+    border: none;
+    border-bottom: 2px solid var(--first-color);
+    border-radius: 0;
+  }
 }
 
 @media screen and (min-width: 500px){
@@ -971,6 +991,10 @@ select{
     flex-direction: row;
     justify-content: center;
     gap: var(--mb-3);
+  }
+
+  .table{
+    padding: 1rem;
   }
 }
 
@@ -1022,6 +1046,10 @@ select{
   .footer__links{
     justify-self: center;
     text-align: center;
+  }
+
+  .table{
+    padding: 1rem;
   }
 }
 
@@ -1201,10 +1229,22 @@ select{
     margin: auto;
     column-gap: 3rem;
   }
+
+  .table{
+    padding: 2rem;
+  }
 }
 
 @media screen and (min-width: 1600px){
   .portfolio__img{
     width: 500px;
+  }
+
+  table.dataTable thead th,
+  table.dataTable thead td {
+    padding: 10px 18px;
+    border: 2px solid var(--first-color);
+    border-radius: 50px;
+    text-align: center;
   }
 }
