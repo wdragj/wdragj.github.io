@@ -883,12 +883,21 @@ select{
   margin-bottom: 2rem;
 }
 
-.post__link{
+.post__link,
+.post__link:link,
+.post__link:visited{
   color: var(--title-color);
+  text-decoration: none;
+}
+
+.post__link:active{
+  color: var(--first-color-lighter);
+  text-decoration: none;
 }
 
 .post__link:hover{
   color: var(--first-color);
+  text-decoration: none;
 }
 
 .gap{
