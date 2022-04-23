@@ -883,6 +883,18 @@ select{
   margin-bottom: 2rem;
 }
 
+.post__link{
+  color: var(--title-color);
+}
+
+.post__link:hover{
+  color: var(--first-color);
+}
+
+.gap{
+  margin-bottom: 15rem;
+}
+
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (min-width: 300px){
@@ -973,6 +985,10 @@ select{
     border: none;
     border-bottom: 2px solid var(--first-color);
     border-radius: 0;
+  }
+
+  .gap{
+    margin-bottom: 3rem;
   }
 }
 
@@ -1178,6 +1194,10 @@ select{
   .post__description{
     font-size: 20px;
   }
+
+  .gap{
+    margin-bottom: 10rem;
+  }
 }
 
 /* For large devices */
@@ -1246,5 +1266,9 @@ select{
     border: 2px solid var(--first-color);
     border-radius: 50px;
     text-align: center;
+  }
+
+  .gap{
+    margin-bottom: 15rem;
   }
 }
