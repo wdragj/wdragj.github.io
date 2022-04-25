@@ -1,354 +1,378 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--==================== FAVICON ====================-->
-        <link rel="icon" href="assets/img/favicon.ico">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--==================== FAVICON ====================-->
+    <link rel="icon" href="assets/img/favicon.ico">
 
-        <title>Freddy Seo</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="/wdragj.github.io/index.html" class="nav__logo">Freddy</a>
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class="uil uil-estate nav__icon"></i> Home
-                            </a>
-                        </li>
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i> About
-                            </a>
-                        </li>
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-file-alt nav__icon"></i> Skills
-                            </a>
-                        </li>
+    <title>Freddy Seo</title>
+</head>
 
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-diary nav__icon"></i> Projects
-                            </a>
-                        </li>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="/wdragj.github.io/index.html" class="nav__logo">Freddy</a>
 
-                        <li class="nav__item">
-                            <a href="journal/home.html" class="nav__link">
-                                <i class="uil uil-diary nav__icon"></i> Journal
-                            </a>
-                        </li>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
 
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i> Contact
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-diary nav__icon"></i> Projects
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="journal/home.html" class="nav__link">
+                            <i class="uil uil-diary nav__icon"></i> Journal
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
                 </div>
+            </div>
+        </nav>
+    </header>
 
-                <div class="nav__btns">
-                    <!-- Theme change button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/freddy-seo-00003a237/" target="_blank"
+                            class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/freddy-seo-00003a237/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
+                        <a href="https://github.com/wdragj" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
 
-                            <a href="https://github.com/wdragj" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github-alt"></i>
-                            </a>
+                        <a href="https://www.facebook.com/tjdydwns/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
 
-                            <a href="https://www.facebook.com/tjdydwns/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-facebook-f"></i>
-                            </a>
+                        <a href="https://www.instagram.com/wdragj1003/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
 
-                            <a href="https://www.instagram.com/wdragj1003/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-instagram"></i>
-                            </a>
-
-                            <a href="mailto:wdragj@gmail.com" target="_blank" class="home__social-icon">
-                                <i class="uil uil-envelope"></i>
-                            </a>
-                        </div>
-
-                        <div class="home__data">
-                            <h1 class="home__title">Hi, I'm Freddy</h1>
-                            <h3 class="home__subtitle">A passionate programmer <br> from South Korea</h3>
-                            <p class="home__description">This is my personal website/blog where <br> I keep track of my progress as a programmer.</p>
-                            <a href="#contact" class="button button--flex">
-                                Contact me <i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
+                        <a href="mailto:wdragj@gmail.com" target="_blank" class="home__social-icon">
+                            <i class="uil uil-envelope"></i>
+                        </a>
                     </div>
 
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Scroll down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Freddy</h1>
+                        <h3 class="home__subtitle">A passionate programmer <br> from South Korea</h3>
+                        <p class="home__description">This is my personal website/blog where <br> I keep track of my
+                            progress as a programmer.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact me <i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
                 </div>
-            </section>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section__title">About Me</h2>
-                <span class="section__subtitle">Education</span>
-
-                <div class="about-description__container container">
-                    <p class="about__description">Hi, my name is Freddy Seo. I’m an Asian-American with citizenship from both South Korea and the United States. I am currently attending University of Wisconsin-Madison in hope to achieve a bachelor’s degree in the CS major.</p>
-                </div>
-                <div class="about__container container grid">
-                    <img src="assets/img/KakaoSelf.jpg" alt="" class="about__img">
-
-                    <div class="about__data">
-                        <div class="about__info">
-                            <div>
-                                <span class="about__info-title">2023~</span>
-                                <span class="about__info-name">University of Wisconsin-Madison</span>
-                            </div>
-                            <div>
-                                <span class="about__info-title">2019-2020</span>
-                                <span class="about__info-name">University of Wisconsin-Madison <br> (Year 1: Freshmen)</span>
-                            </div>
-                            <div>
-                                <span class="about__info-title">2007-2019</span>
-                                <span class="about__info-name">GSIS (Gyeonggi Suwon International School)</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about__buttons container">
-                    <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button button--flex">
-                        Download CV<i class="uil uil-download-alt button__icon"></i>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
                     </a>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My technical level</span>
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">Education</span>
 
-                <div class="skills__container container grid">
-                    <div>
-                        <!--==================== SKILLS 1 ====================-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-brackets-curly skills__icon"></i>
+            <div class="about-description__container container">
+                <p class="about__description">Hi, my name is Freddy Seo. I’m an Asian-American with citizenship from
+                    both South Korea and the United States. I am currently attending University of Wisconsin-Madison in
+                    hope to achieve a bachelor’s degree in the CS major.</p>
+            </div>
+            <div class="about__container container grid">
+                <img src="assets/img/KakaoSelf.jpg" alt="" class="about__img">
 
-                                <div>
-                                    <h1 class="skills__title">Languages</h1>
-                                    <span class="skills__subtitle">Programming Languages</span>
-                                </div>
+                <div class="about__data">
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">2023~</span>
+                            <span class="about__info-name">University of Wisconsin-Madison</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">2019-2020</span>
+                            <span class="about__info-name">University of Wisconsin-Madison <br> (Year 1:
+                                Freshmen)</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">2007-2019</span>
+                            <span class="about__info-name">GSIS (Gyeonggi Suwon International School)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about__buttons container">
+                <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button button--flex">
+                    Download CV<i class="uil uil-download-alt button__icon"></i>
+                </a>
+            </div>
+        </section>
 
-                                <i class="uil uil-angle-down skills__arrow"></i>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Languages</h1>
+                                <span class="skills__subtitle">Programming Languages</span>
                             </div>
 
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">HTML 5</h3>
-                                        <i class="uil uil-html5-alt skills__logo"></i>
-                                    </div>
-                                    <div class="skills__bar"></div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">CSS 3</h3>
-                                        <i class="uil uil-css3-simple skills__logo"></i>
-                                    </div>
-                                    <div class="skills__bar"></div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Javascript</h3>
-                                        <i class="uil uil-java-script skills__logo"></i>
-                                    </div>
-                                    <div class="skills__bar"></div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Python</h3>
-                                        <svg class="skills__logoalt" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><path d="M7,18.25c-0.414,0-0.75-0.336-0.75-0.75v-2.56c0.03-1.689,1.099-2.69,2.859-2.69h5.49c2.285,0,3.649-1.286,3.649-3.44V6.25c0-0.414,0.336-0.75,0.75-0.75s0.75,0.336,0.75,0.75v2.5c0,3.061-2.021,5-5.149,5h-5.49c-1.179,0-1.349,0.608-1.359,1.204V17.5C7.75,17.914,7.414,18.25,7,18.25z"/><path d="M12.169,24c-0.966,0-1.952-0.076-2.891-0.229C7.437,23.459,6.25,22.046,6.25,20.17V14.94c0-0.414,0.336-0.75,0.75-0.75s0.75,0.336,0.75,0.75v5.229c0,1.141,0.663,1.933,1.774,2.121c1.737,0.282,3.645,0.28,5.229-0.01c0.937-0.16,1.524-0.397,1.802-0.726c0.226-0.267,0.322-0.681,0.322-1.386v-2.42h-4.129c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h4.879c0.414,0,0.75,0.336,0.75,0.75v3.17c0,0.725-0.077,1.646-0.678,2.355c-0.522,0.616-1.375,1.009-2.685,1.233C14.134,23.919,13.162,24,12.169,24z"/><path d="M19.688 17.75h-2.06c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h2.06c1.446 0 2.133-.512 2.451-1.826.483-2.019.483-3.192-.001-5.231C21.7 7.373 21.045 7 20.198 7h-.45v1.75c0 .414-.336.78-.75.78s-.75-.307-.75-.721V6.25c0-.414.336-.75.75-.75h1.2c2.325 0 3.053 1.908 3.399 3.344.535 2.256.535 3.696 0 5.931C23.12 16.749 21.805 17.75 19.688 17.75zM13.999 21.75c-.965 0-1.75-.786-1.75-1.752 0-.964.785-1.748 1.75-1.748s1.75.784 1.75 1.748C15.739 20.968 14.954 21.75 13.999 21.75zM13.999 19.75c-.138 0-.25.111-.25.248 0 .272.497.276.5-.007C14.249 19.861 14.136 19.75 13.999 19.75zM5.002 18.5c-.414 0-.75-.336-.75-.75v-2.5c0-3.061 2.021-5 5.149-5h5.49c1.179 0 1.349-.608 1.359-1.203V6.5c0-.414.336-.75.75-.75s.75.336.75.75v2.561c-.03 1.689-1.099 2.689-2.859 2.689h-5.49c-2.285 0-3.649 1.286-3.649 3.44v2.56C5.752 18.164 5.416 18.5 5.002 18.5z"/><path d="M17,9.811c-0.414,0-0.75-0.336-0.75-0.75V3.83c0-1.141-0.663-1.933-1.774-2.121c-1.737-0.282-3.645-0.28-5.229,0.01C8.31,1.879,7.723,2.116,7.444,2.444C7.218,2.711,7.122,3.125,7.122,3.83v2.42h4.129c0.414,0,0.75,0.336,0.75,0.75s-0.336,0.75-0.75,0.75H6.372c-0.414,0-0.75-0.336-0.75-0.75V3.83c0-0.725,0.077-1.646,0.678-2.355c0.522-0.616,1.375-1.009,2.685-1.233c1.74-0.316,3.833-0.322,5.737-0.012c1.842,0.312,3.029,1.725,3.029,3.601v5.23C17.75,9.475,17.415,9.811,17,9.811z"/><path d="M5.002 18.5h-1.2c-2.325 0-3.053-1.908-3.399-3.344-.535-2.256-.535-3.696 0-5.931C.88 7.251 2.195 6.25 4.312 6.25h2.06c.414 0 .75.336.75.75s-.336.75-.75.75h-2.06c-1.446 0-2.133.512-2.451 1.826-.483 2.019-.483 3.192.001 5.231C2.3 16.627 2.955 17 3.802 17h.45v-1.75c0-.414.336-.78.75-.78s.75.307.75.721v2.56C5.752 18.164 5.416 18.5 5.002 18.5zM10.001 5.75c-.965 0-1.75-.784-1.75-1.748.009-.97.794-1.752 1.75-1.752.965 0 1.75.786 1.75 1.752C11.751 4.966 10.966 5.75 10.001 5.75zM10.001 3.75c-.139 0-.249.114-.25.259 0 .26.5.267.5-.007C10.251 3.868 10.135 3.75 10.001 3.75z"/></svg>
-                                    </div>
-                                    <div class="skills__bar"></div>
-                                </div>
-                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
 
-                        <!--==================== SKILLS 2 ====================-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-channel skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Frameworks</h1>
-                                    <span class="skills__subtitle">Software Frameworks</span>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">HTML 5</h3>
+                                    <i class="uil uil-html5-alt skills__logo"></i>
                                 </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
+                                <div class="skills__bar"></div>
                             </div>
 
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">PHP</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar"></div>
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">CSS 3</h3>
+                                    <i class="uil uil-css3-simple skills__logo"></i>
                                 </div>
+                                <div class="skills__bar"></div>
+                            </div>
 
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Node JS</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__nodejs"></span>
-                                    </div>
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <i class="uil uil-java-script skills__logo"></i>
                                 </div>
+                                <div class="skills__bar"></div>
+                            </div>
 
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Firebase</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__firebase"></span>
-                                    </div>
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Python</h3>
+                                    <svg class="skills__logoalt" xmlns="http://www.w3.org/2000/svg"
+                                        enable-background="new 0 0 24 24" viewBox="0 0 24 24">
+                                        <path
+                                            d="M7,18.25c-0.414,0-0.75-0.336-0.75-0.75v-2.56c0.03-1.689,1.099-2.69,2.859-2.69h5.49c2.285,0,3.649-1.286,3.649-3.44V6.25c0-0.414,0.336-0.75,0.75-0.75s0.75,0.336,0.75,0.75v2.5c0,3.061-2.021,5-5.149,5h-5.49c-1.179,0-1.349,0.608-1.359,1.204V17.5C7.75,17.914,7.414,18.25,7,18.25z" />
+                                        <path
+                                            d="M12.169,24c-0.966,0-1.952-0.076-2.891-0.229C7.437,23.459,6.25,22.046,6.25,20.17V14.94c0-0.414,0.336-0.75,0.75-0.75s0.75,0.336,0.75,0.75v5.229c0,1.141,0.663,1.933,1.774,2.121c1.737,0.282,3.645,0.28,5.229-0.01c0.937-0.16,1.524-0.397,1.802-0.726c0.226-0.267,0.322-0.681,0.322-1.386v-2.42h-4.129c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h4.879c0.414,0,0.75,0.336,0.75,0.75v3.17c0,0.725-0.077,1.646-0.678,2.355c-0.522,0.616-1.375,1.009-2.685,1.233C14.134,23.919,13.162,24,12.169,24z" />
+                                        <path
+                                            d="M19.688 17.75h-2.06c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h2.06c1.446 0 2.133-.512 2.451-1.826.483-2.019.483-3.192-.001-5.231C21.7 7.373 21.045 7 20.198 7h-.45v1.75c0 .414-.336.78-.75.78s-.75-.307-.75-.721V6.25c0-.414.336-.75.75-.75h1.2c2.325 0 3.053 1.908 3.399 3.344.535 2.256.535 3.696 0 5.931C23.12 16.749 21.805 17.75 19.688 17.75zM13.999 21.75c-.965 0-1.75-.786-1.75-1.752 0-.964.785-1.748 1.75-1.748s1.75.784 1.75 1.748C15.739 20.968 14.954 21.75 13.999 21.75zM13.999 19.75c-.138 0-.25.111-.25.248 0 .272.497.276.5-.007C14.249 19.861 14.136 19.75 13.999 19.75zM5.002 18.5c-.414 0-.75-.336-.75-.75v-2.5c0-3.061 2.021-5 5.149-5h5.49c1.179 0 1.349-.608 1.359-1.203V6.5c0-.414.336-.75.75-.75s.75.336.75.75v2.561c-.03 1.689-1.099 2.689-2.859 2.689h-5.49c-2.285 0-3.649 1.286-3.649 3.44v2.56C5.752 18.164 5.416 18.5 5.002 18.5z" />
+                                        <path
+                                            d="M17,9.811c-0.414,0-0.75-0.336-0.75-0.75V3.83c0-1.141-0.663-1.933-1.774-2.121c-1.737-0.282-3.645-0.28-5.229,0.01C8.31,1.879,7.723,2.116,7.444,2.444C7.218,2.711,7.122,3.125,7.122,3.83v2.42h4.129c0.414,0,0.75,0.336,0.75,0.75s-0.336,0.75-0.75,0.75H6.372c-0.414,0-0.75-0.336-0.75-0.75V3.83c0-0.725,0.077-1.646,0.678-2.355c0.522-0.616,1.375-1.009,2.685-1.233c1.74-0.316,3.833-0.322,5.737-0.012c1.842,0.312,3.029,1.725,3.029,3.601v5.23C17.75,9.475,17.415,9.811,17,9.811z" />
+                                        <path
+                                            d="M5.002 18.5h-1.2c-2.325 0-3.053-1.908-3.399-3.344-.535-2.256-.535-3.696 0-5.931C.88 7.251 2.195 6.25 4.312 6.25h2.06c.414 0 .75.336.75.75s-.336.75-.75.75h-2.06c-1.446 0-2.133.512-2.451 1.826-.483 2.019-.483 3.192.001 5.231C2.3 16.627 2.955 17 3.802 17h.45v-1.75c0-.414.336-.78.75-.78s.75.307.75.721v2.56C5.752 18.164 5.416 18.5 5.002 18.5zM10.001 5.75c-.965 0-1.75-.784-1.75-1.748.009-.97.794-1.752 1.75-1.752.965 0 1.75.786 1.75 1.752C11.751 4.966 10.966 5.75 10.001 5.75zM10.001 3.75c-.139 0-.249.114-.25.259 0 .26.5.267.5-.007C10.251 3.868 10.135 3.75 10.001 3.75z" />
+                                        </svg>
                                 </div>
+                                <div class="skills__bar"></div>
+                            </div>
+                        </div>
+                    </div>
 
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Java</h3>
-                                        <span class="skills__number">65%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__java"></span>
-                                    </div>
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-channel skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Frameworks</h1>
+                                <span class="skills__subtitle">Software Frameworks</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar"></div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Node JS</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__nodejs"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__firebase"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--==================== PROJECTS ====================-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">My Projects</h2>
-                <span class="section__subtitle">My completed projects</span>
+        <!--==================== PROJECTS ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">My Projects</h2>
+            <span class="section__subtitle">My completed projects</span>
 
-                <div class="portfolio__container container swiper">
-                    <div class="swiper-wrapper">
-                        <!--==================== POST 1 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+            <div class="portfolio__container container swiper">
+                <div class="swiper-wrapper">
+                    <!--==================== POST 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Modern Website</h3>
-                                <p class="portfolio__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam minima tenetur est sint nesciunt expedita quia, nemo reiciendis rerum corrupti?</p>
-                                <a href="#" class="button button--flex button--small portfolio__button">
-                                    Read more
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!--==================== POST 2 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Brand Design</h3>
-                                <p class="portfolio__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, est!</p>
-                                <a href="#" class="button button--flex button--small portfolio__button">
-                                    Read more
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!--==================== POST 3 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Online Store</h3>
-                                <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur minus ut provident maxime tempore magni!</p>
-                                <a href="#" class="button button--flex button--small portfolio__button">
-                                    Read more
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Quibusdam minima tenetur est sint nesciunt expedita quia, nemo reiciendis rerum
+                                corrupti?</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Read more
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
                         </div>
                     </div>
-                    
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                    
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+
+                    <!--==================== POST 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Brand Design</h3>
+                            <p class="portfolio__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Consectetur, est!</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Read more
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+
+                    <!--==================== POST 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Online Store</h3>
+                            <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Consectetur minus ut provident maxime tempore magni!</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Read more
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </section>
 
-            <!--==================== JOURNAL ====================-->
-            <section class="journal section" id="journal">
-                <h2 class="section__title">My Journal</h2>
-                <span class="section__subtitle">My blogposts</span>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
 
-                <div class="journal__container container">
-                    <p class="journal__description">Check out my blog posts where I post progress about my personal website, what I have studied/learned, or about projects that I have made.</p>
-                    <div class="journal-button__container">
-                        <a href="journal/home.html" class="button button--flex button--small journal__button">
-                            View my posts
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
                 </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== JOURNAL ====================-->
+        <section class="journal section" id="journal">
+            <h2 class="section__title">My Journal</h2>
+            <span class="section__subtitle">My blogposts</span>
+
+            <div class="journal__container container">
+                <p class="journal__description">Check out my blog posts where I post progress about my personal website,
+                    what I have studied/learned, or about projects that I have made.</p>
+                <div class="journal-button__container">
+                    <a href="journal/home.html" class="button button--flex button--small journal__button">
+                        View my posts
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
 
             <!--==================== CONTACT ====================-->
             <section class="contact section" id="contact">
@@ -417,68 +441,72 @@
 
             <!--==================== TESTIMONIAL ====================-->
             <section class="testimonial section">
-                
+
             </section>
-        </main>
+    </main>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid">
-                    <div class="footer-title__container">
-                        <h1 class="footer__title">Freddy</h1>
-                        <span class="footer__subtitle">Frontend developer</span>
-                    </div>
-
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#about" class="footer__link">About</a>
-                        </li>
-                        <li>
-                            <a href="journal/home.html" class="footer__link">Journal</a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="footer__link">Contact </a>
-                        </li>
-                    </ul>
-
-                    <div class="footer__socials">
-                        <a href="https://www.linkedin.com/in/freddy-seo-00003a237/" target="_blank" class="footer__social">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-    
-                        <a href="https://github.com/wdragj" target="_blank" class="footer__social">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-    
-                        <a href="https://www.facebook.com/tjdydwns/" target="_blank" class="footer__social">
-                            <i class="uil uil-facebook-f"></i>
-                        </a>
-    
-                        <a href="https://www.instagram.com/wdragj1003/" target="_blank" class="footer__social">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-    
-                        <a href="mailto:wdragj@gmail.com" target="_blank" class="footer__social">
-                            <i class="uil uil-envelope"></i>
-                        </a>
-                    </div>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div class="footer-title__container">
+                    <h1 class="footer__title">Freddy</h1>
+                    <span class="footer__subtitle">Frontend developer</span>
                 </div>
-                
-                <p class="footer__copy">&#169; 2022 Freddy Seo. All rights reserved</p>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="journal/home.html" class="footer__link">Journal</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact </a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/freddy-seo-00003a237/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+
+                    <a href="https://github.com/wdragj" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/tjdydwns/" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/wdragj1003/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="mailto:wdragj@gmail.com" target="_blank" class="footer__social">
+                        <i class="uil uil-envelope"></i>
+                    </a>
+                </div>
             </div>
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.esm.js"></script>
-        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+            <p class="footer__copy">&#169; 2022 Freddy Seo. All rights reserved</p>
+        </div>
+    </footer>
 
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.esm.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+    <!--==================== DATATABLE JS ====================-->
+    <script src="../assets/js/datatableinitjs.js"></script>
+</body>
+
 </html>
