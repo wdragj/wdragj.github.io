@@ -780,7 +780,7 @@ table.dataTable tbody tr {
   padding: 5px;
   margin-left: 8px;
   margin-right: 8px;
-  text-align: initial;
+  text-align: center;
 }
 
 .dataTables_wrapper .dataTables_filter input {
@@ -903,6 +903,24 @@ select{
 
 .gap{
   margin-bottom: 15rem;
+}
+
+.page-button{
+  color: var(--first-color);
+  font-size: 18px;
+}
+
+.page-button-skip{
+  color: var(--first-color);
+  font-size: 18px;
+}
+
+.disabled .page-button{
+  color: var(--first-color-lighter);
+}
+
+.disabled .page-button-skip{
+  color: var(--first-color-lighter);
 }
 
 /*==================== MEDIA QUERIES ====================*/
