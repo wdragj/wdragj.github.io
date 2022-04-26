@@ -1287,7 +1287,7 @@ select {
     padding-bottom: 20rem;
   }
   .skills{
-    padding-top: 15rem;
+    padding-top: 20rem;
     padding-bottom: 25rem;
   }
   .portfolio{
@@ -1307,9 +1307,13 @@ select {
   }
 
   .header,
-  .main,
-  .footer__container {
+  .footer__container{
     padding: 0 1rem;
+  }
+
+  .section {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .home__social {
