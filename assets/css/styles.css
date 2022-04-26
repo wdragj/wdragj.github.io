@@ -807,6 +807,11 @@ img {
 }
 
 /*==================== POSTS ====================*/
+.post{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
 .post__img {
   margin-bottom: var(--mb-2);
 }
@@ -953,10 +958,6 @@ select {
   text-decoration: none;
 }
 
-.gap {
-  margin-bottom: 15rem;
-}
-
 .page-button {
   color: var(--first-color);
   font-size: 18px;
@@ -1101,10 +1102,6 @@ select {
     border: none;
     border-bottom: 2px solid var(--first-color);
     border-radius: 0;
-  }
-
-  .gap {
-    margin-bottom: 3rem;
   }
 }
 
@@ -1410,10 +1407,6 @@ select {
   .post__description {
     font-size: 20px;
   }
-
-  .gap {
-    margin-bottom: 10rem;
-  }
 }
 
 /* For large devices */
@@ -1517,9 +1510,5 @@ select {
     border: 2px solid var(--first-color);
     border-radius: 50px;
     text-align: center;
-  }
-
-  .gap {
-    margin-bottom: 15rem;
   }
 }
