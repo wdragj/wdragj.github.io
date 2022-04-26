@@ -1128,7 +1128,6 @@ select {
   table.dataTable tr,
   table.dataTable td {
     display: block;
-    /* width: 100%; */
   }
 
   table.dataTable tr {
@@ -1166,29 +1165,26 @@ select {
 
 @media screen and (min-width: 500px) {
   .home__container{
-    padding-top: 18rem;
+    padding-top: 5rem;
     padding-bottom: 25rem;
   }
   .about-container{
-    padding-top: 10rem;
-    padding-bottom: 30rem;
+    padding-top: 2rem;
+    padding-bottom: 15rem;
   }
   .skills{
-    padding-top: 25rem;
+    padding-top: 10rem;
     padding-bottom: 35rem;
   }
   .portfolio{
-    padding-top: 15rem;
+    padding-top: 5rem;
   }
   .journal{
-    padding-top: 15rem;
-    padding-bottom: 20rem;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
   }
   .contact{
-    padding-top: 15rem;
-  }
-  .footer{
-
+    padding-top: 5rem;
   }
   
   .home__content {
@@ -1282,6 +1278,29 @@ select {
     margin: 0;
   }
 
+  .home__container{
+    padding-top: 5rem;
+    padding-bottom: 20rem;
+  }
+  .about-container{
+    padding-top: 5rem;
+    padding-bottom: 20rem;
+  }
+  .skills{
+    padding-top: 15rem;
+    padding-bottom: 25rem;
+  }
+  .portfolio{
+    padding-top: 10rem;
+  }
+  .journal{
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+  }
+  .contact{
+    padding-top: 5rem;
+  }
+
   .header {
     top: 0;
     bottom: initial;
@@ -1297,6 +1316,7 @@ select {
     display: grid;
     grid-template-columns: max-content;
     row-gap: 1rem;
+    margin-left: 2rem;
   }
 
   .nav {
