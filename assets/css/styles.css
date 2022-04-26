@@ -1038,7 +1038,7 @@ select {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: var(--mb-3);
+    gap: var(--mb-2);
   }
 
   .home-img__container {
