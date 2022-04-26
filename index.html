@@ -11,6 +11,9 @@
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
+    <!--==================== DATATABLE CSS JQUERY ====================-->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+
     <!--==================== SWIPER CSS ====================-->
     <link rel="stylesheet" href="assets/css/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
@@ -54,7 +57,7 @@
                     </li>
 
                     <li class="nav__item">
-                        <a href="journal/home.html" class="nav__link">
+                        <a href="#journal" class="nav__link">
                             <i class="uil uil-diary nav__icon"></i> Journal
                         </a>
                     </li>
@@ -131,39 +134,42 @@
 
         <!--==================== ABOUT ====================-->
         <section class="about section" id="about">
-            <h2 class="section__title">About Me</h2>
-            <span class="section__subtitle">Education</span>
+            <div class="about-container">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">Education</span>
 
-            <div class="about-description__container container">
-                <p class="about__description">Hi, my name is Freddy Seo. I’m an Asian-American with citizenship from
-                    both South Korea and the United States. I am currently attending University of Wisconsin-Madison in
-                    hope to achieve a bachelor’s degree in the CS major.</p>
-            </div>
-            <div class="about__container container grid">
-                <img src="assets/img/KakaoSelf.jpg" alt="" class="about__img">
+                <div class="about-description__container container">
+                    <p class="about__description">Hi, my name is Freddy Seo. I’m an Asian-American with citizenship from
+                        both South Korea and the United States. I am currently attending University of Wisconsin-Madison
+                        in
+                        hope to achieve a bachelor’s degree in the CS major.</p>
+                </div>
+                <div class="about__container container grid">
+                    <img src="assets/img/KakaoSelf.jpg" alt="" class="about__img">
 
-                <div class="about__data">
-                    <div class="about__info">
-                        <div>
-                            <span class="about__info-title">2023~</span>
-                            <span class="about__info-name">University of Wisconsin-Madison</span>
-                        </div>
-                        <div>
-                            <span class="about__info-title">2019-2020</span>
-                            <span class="about__info-name">University of Wisconsin-Madison <br> (Year 1:
-                                Freshmen)</span>
-                        </div>
-                        <div>
-                            <span class="about__info-title">2007-2019</span>
-                            <span class="about__info-name">GSIS (Gyeonggi Suwon International School)</span>
+                    <div class="about__data">
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">2023~</span>
+                                <span class="about__info-name">University of Wisconsin-Madison</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">2019-2020</span>
+                                <span class="about__info-name">University of Wisconsin-Madison <br> (Year 1:
+                                    Freshmen)</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">2007-2019</span>
+                                <span class="about__info-name">GSIS (Gyeonggi Suwon International School)</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="about__buttons container">
-                <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button button--flex">
-                    Download CV<i class="uil uil-download-alt button__icon"></i>
-                </a>
+                <div class="about__buttons container">
+                    <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button button--flex">
+                        Download CV<i class="uil uil-download-alt button__icon"></i>
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -227,7 +233,7 @@
                                             d="M17,9.811c-0.414,0-0.75-0.336-0.75-0.75V3.83c0-1.141-0.663-1.933-1.774-2.121c-1.737-0.282-3.645-0.28-5.229,0.01C8.31,1.879,7.723,2.116,7.444,2.444C7.218,2.711,7.122,3.125,7.122,3.83v2.42h4.129c0.414,0,0.75,0.336,0.75,0.75s-0.336,0.75-0.75,0.75H6.372c-0.414,0-0.75-0.336-0.75-0.75V3.83c0-0.725,0.077-1.646,0.678-2.355c0.522-0.616,1.375-1.009,2.685-1.233c1.74-0.316,3.833-0.322,5.737-0.012c1.842,0.312,3.029,1.725,3.029,3.601v5.23C17.75,9.475,17.415,9.811,17,9.811z" />
                                         <path
                                             d="M5.002 18.5h-1.2c-2.325 0-3.053-1.908-3.399-3.344-.535-2.256-.535-3.696 0-5.931C.88 7.251 2.195 6.25 4.312 6.25h2.06c.414 0 .75.336.75.75s-.336.75-.75.75h-2.06c-1.446 0-2.133.512-2.451 1.826-.483 2.019-.483 3.192.001 5.231C2.3 16.627 2.955 17 3.802 17h.45v-1.75c0-.414.336-.78.75-.78s.75.307.75.721v2.56C5.752 18.164 5.416 18.5 5.002 18.5zM10.001 5.75c-.965 0-1.75-.784-1.75-1.748.009-.97.794-1.752 1.75-1.752.965 0 1.75.786 1.75 1.752C11.751 4.966 10.966 5.75 10.001 5.75zM10.001 3.75c-.139 0-.249.114-.25.259 0 .26.5.267.5-.007C10.251 3.868 10.135 3.75 10.001 3.75z" />
-                                        </svg>
+                                    </svg>
                                 </div>
                                 <div class="skills__bar"></div>
                             </div>
@@ -361,88 +367,215 @@
         <!--==================== JOURNAL ====================-->
         <section class="journal section" id="journal">
             <h2 class="section__title">My Journal</h2>
-            <span class="section__subtitle">My blogposts</span>
+            <span class="section__subtitle">Journals of my programming journey</span>
 
             <div class="journal__container container">
-                <p class="journal__description">Check out my blog posts where I post progress about my personal website,
-                    what I have studied/learned, or about projects that I have made.</p>
-                <div class="journal-button__container">
-                    <a href="journal/home.html" class="button button--flex button--small journal__button">
-                        View my posts
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
+                <div class="post-page__container container">
+                    <table class="table table-fluid page-table nowrap" id="myTable">
+                        <thead class="page-table-head">
+                            <tr>
+                                <th style="width: 60%;">Title</th>
+                                <th>Category</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody class="page-table-body">
+                            <tr>
+                                <td data-label="Title"><a href="journal/post/post1.html" class="post__link"
+                                        target="_blank">First Post</a></td>
+                                <td data-label="Category">Post</td>
+                                <td data-label="Date">2022-04-22</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost1.html" class="post__link"
+                                        target="_blank">Test 01 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost2.html" class="post__link"
+                                        target="_blank">Test 02 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost3.html" class="post__link"
+                                        target="_blank">Test 03 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost4.html" class="post__link"
+                                        target="_blank">Test 04 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost5.html" class="post__link"
+                                        target="_blank">Test 05 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost6.html" class="post__link"
+                                        target="_blank">Test 06 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost7.html" class="post__link"
+                                        target="_blank">Test 07 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost8.html" class="post__link"
+                                        target="_blank">Test 08 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost9.html" class="post__link"
+                                        target="_blank">Test 09 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost10.html" class="post__link"
+                                        target="_blank">Test 10 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost11.html" class="post__link"
+                                        target="_blank">Test 11 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost12.html" class="post__link"
+                                        target="_blank">Test 12 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost13.html" class="post__link"
+                                        target="_blank">Test 13 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost14.html" class="post__link"
+                                        target="_blank">Test 14 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost15.html" class="post__link"
+                                        target="_blank">Test 15 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost16.html" class="post__link"
+                                        target="_blank">Test 16 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost17.html" class="post__link"
+                                        target="_blank">Test 17 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost18.html" class="post__link"
+                                        target="_blank">Test 18 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost19.html" class="post__link"
+                                        target="_blank">Test 19 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Title"><a href="journal/testpost/testpost20.html" class="post__link"
+                                        target="_blank">Test 20 LOREM IPSUM POST</a></td>
+                                <td data-label="Category">Test</td>
+                                <td data-label="Date">2022-04-21</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
+        </section>
+        
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
 
-            <!--==================== CONTACT ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
-                <span class="section__subtitle">Get in touch</span>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
 
-                <div class="contact__container container grid">
-                    <div>
-                        <div class="contact__information">
-                            <i class="uil uil-phone contact__icon"></i>
-
-                            <div>
-                                <h3 class="contact__title">Call me</h3>
-                                <span class="contact__subtitle">+82 10-4085-7384</span>
-                            </div>
-                        </div>
-
-                        <div class="contact__information">
-                            <i class="uil uil-envelope contact__icon"></i>
-
-                            <div>
-                                <h3 class="contact__title">Email</h3>
-                                <span class="contact__subtitle">wdragj@gmail.com</span>
-                            </div>
-                        </div>
-
-                        <div class="contact__information">
-                            <i class="uil uil-map-marker contact__icon"></i>
-
-                            <div>
-                                <h3 class="contact__title">Location</h3>
-                                <span class="contact__subtitle">South Korea, Seoul</span>
-                            </div>
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contact__subtitle">+82 10-4085-7384</span>
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
-                            </div>
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">wdragj@gmail.com</span>
                         </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">South Korea, Seoul</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="" class="contact__label">Project</label>
+                            <label for="" class="contact__label">Name</label>
                             <input type="text" class="contact__input">
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
                         </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
 
-                        <div>
-                            <a href="#" class="button button--flex">
-                                Send Message
-                                <i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
-                    </form>
-                </div>
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-
-            </section>
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 
     <!--==================== FOOTER ====================-->
@@ -498,6 +631,11 @@
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
+    <!--==================== JQUERY JS ====================-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.esm.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
@@ -506,7 +644,7 @@
     <script src="assets/js/main.js"></script>
 
     <!--==================== DATATABLE JS ====================-->
-    <script src="../assets/js/datatableinitjs.js"></script>
+    <script src="assets/js/datatableinitjs.js"></script>
 </body>
 
 </html>
