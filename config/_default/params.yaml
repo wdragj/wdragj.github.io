@@ -4,11 +4,24 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-
+  # 1950s
+  # Apogee
+  # Coffee
+  # Dark
+  # Earth
+  # Forest
+  # Strawberry
+  # Ocean
+  # Minimal (modern)
+  # Classic (original Academic v1 style)
+  # Rose (traditional serif)
+  # Mr Robot (futuristic)
+  # Cyberpunk (hacker style)
+  # Native: use device fonts for maximum performance
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
+  theme_day: Mr Robot
+  theme_night: Mr Robot
+  font: Minimal
   font_size: L
 
 # SEO
@@ -43,12 +56,13 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+    notice: '© {year} Freddy Seo.'
+    # This work is licensed under {license}
+    # license:
+    #   enable: true
+    #   allow_derivatives: false
+    #   share_alike: true
+    #   allow_commercial: false
 
 # Localization
 
@@ -64,22 +78,30 @@ features:
     theme_light: github-light
     theme_dark: dracula
   math:
-    enable: false
+    enable: true
+  diagram:
+    enable: true
   privacy_pack:
-    enable: false
+    enable: true
+  docs_section_pager:
+    enable: true
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/wdragj/wdragj.netlify.app'
     content_dir: content
     branch: main
   avatar:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    # Choose a provider: giscus, disqus, commento, or '' to disable commenting
+    provider: 'disqus'
     disqus:
-      shortname: ''
+      # Paste the shortname from your Disqus dashboard.
+      shortname: 'wdragj'
+      # Show comment count in page header? (true/false)
       show_count: true
     commento:
+      # If you self-host Commento, enter your custom Commento URL here.
       url: ''
     giscus:
       repo: ''
@@ -97,6 +119,9 @@ features:
     provider: ''
     api_key: ''
     zoom: 15
+  icon:
+    pack:
+      ai: true
 
 # Extensions
 
