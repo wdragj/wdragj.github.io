@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java | Freddy Seo</title><link>https://wdragj.github.io/study/java/</link><atom:link href="https://wdragj.github.io/study/java/index.xml" rel="self" type="application/rss+xml"/><description>Java</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>https://wdragj.github.io/study/java/featured.png</url><title>Java</title><link>https://wdragj.github.io/study/java/</link></image><item><title>Java Basic Syntax</title><link>https://wdragj.github.io/study/java/java_basic_syntax/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://wdragj.github.io/study/java/java_basic_syntax/</guid><description>&lt;p>A brief information on the Classes and Objects, Method, Instance variables, syntax, and semantics of Java.&lt;/p>
+&lt;p>
+&lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
+&lt;h2 id="learn">Learn&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/rfscVS0vtbw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="quiz">Quiz&lt;/h2>
+&lt;details class="spoiler " id="spoiler-2">
+&lt;summary>What is the difference between lists and tuples?&lt;/summary>
+&lt;p>&lt;p>Lists&lt;/p>
+&lt;ul>
+&lt;li>Lists are mutable - they can be changed&lt;/li>
+&lt;li>Slower than tuples&lt;/li>
+&lt;li>Syntax: &lt;code>a_list = [1, 2.0, 'Hello world']&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>Tuples&lt;/p>
+&lt;ul>
+&lt;li>Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li>
+&lt;li>Tuples are faster than lists&lt;/li>
+&lt;li>Syntax: &lt;code>a_tuple = (1, 2.0, 'Hello world')&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-3">
+&lt;summary>Is Python case-sensitive?&lt;/summary>
+&lt;p>Yes&lt;/p>
+&lt;/details></description></item><item><title>Differences between JDK, JRE and JVM</title><link>https://wdragj.github.io/study/java/jdk_jre_jvm/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://wdragj.github.io/study/java/jdk_jre_jvm/</guid><description>&lt;p>JDK, JRE and JVM and the differences between them.&lt;/p>
+&lt;p>
+&lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
+&lt;h2 id="learn">Learn&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/hSPmj7mK6ng" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="quiz">Quiz&lt;/h2>
+&lt;details class="spoiler " id="spoiler-2">
+&lt;summary>When is a heatmap useful?&lt;/summary>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-3">
+&lt;summary>Write Plotly code to render a bar chart&lt;/summary>
+&lt;p>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">plotly.express&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">px&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data_canada&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">px&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">data&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">gapminder&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">query&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;country == &amp;#39;Canada&amp;#39;&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">fig&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">px&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">bar&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">data_canada&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">x&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;year&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">y&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;pop&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">fig&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">show&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p>
+&lt;/details></description></item><item><title>Variables &amp; Data types</title><link>https://wdragj.github.io/study/java/variables_and_datatypes/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://wdragj.github.io/study/java/variables_and_datatypes/</guid><description>&lt;p>Variables &amp;amp; Data types in Java.&lt;/p>
+&lt;p>
+&lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
+&lt;h2 id="learn">Learn&lt;/h2>
+&lt;p>The general form of the &lt;strong>normal&lt;/strong> probability density function is:&lt;/p>
+&lt;p>$$
+f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
+$$&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+The parameter $\mu$ is the mean or expectation of the distribution.
+$\sigma$ is its standard deviation.
+The variance of the distribution is $\sigma^{2}$.
+&lt;/div>
+&lt;/div>
+&lt;h2 id="quiz">Quiz&lt;/h2>
+&lt;details class="spoiler " id="spoiler-2">
+&lt;summary>What is the parameter $\mu$?&lt;/summary>
+&lt;p>The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p>
+&lt;/details></description></item></channel></rss>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker | Freddy Seo</title><link>https://wdragj.github.io/category/docker/</link><atom:link href="https://wdragj.github.io/category/docker/index.xml" rel="self" type="application/rss+xml"/><description>Docker</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Oct 2022 17:29:47 +0000</lastBuildDate><image><url>https://wdragj.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>Docker</title><link>https://wdragj.github.io/category/docker/</link></image><item><title>Docker - CLIs</title><link>https://wdragj.github.io/post/docker-clis/</link><pubDate>Thu, 06 Oct 2022 17:29:47 +0000</pubDate><guid>https://wdragj.github.io/post/docker-clis/</guid><description>&lt;h3 id="complete-docker-cli">Complete Docker CLI&lt;/h3>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/68026909-c6e5-4e63-9ce2-fb043b2a29a9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221006%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20221006T173131Z&amp;amp;X-Amz-Expires=86400&amp;amp;X-Amz-Signature=23f1252dc4fd30c7372d6a7da023c6553c09a4cb31cc1225f276e9a2e4671fb4&amp;amp;X-Amz-SignedHeaders=host&amp;amp;response-content-disposition=filename%20%3D%22Untitled.png%22&amp;amp;x-id=GetObject" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;h3 id="container-management">Container Management&lt;/h3>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/508b16a5-987d-4b84-86f0-9526e3f4c00b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221006%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20221006T173152Z&amp;amp;X-Amz-Expires=86400&amp;amp;X-Amz-Signature=d04fdd115570d899fb650e20c6710a228a81d281ef69362ebfac413042a70b9b&amp;amp;X-Amz-SignedHeaders=host&amp;amp;response-content-disposition=filename%20%3D%22Untitled.png%22&amp;amp;x-id=GetObject" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;h3 id="inspecting-the-container">&lt;strong>Inspecting The Container&lt;/strong>&lt;/h3>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3923809b-ff3c-42f5-a0e0-a055d80ff870/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221006%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20221006T173216Z&amp;amp;X-Amz-Expires=86400&amp;amp;X-Amz-Signature=5bf91d3dfd9452d7ec5951b5921bf5b88632584463bb15c21eb64f82f3b0c3fe&amp;amp;X-Amz-SignedHeaders=host&amp;amp;response-content-disposition=filename%20%3D%22Untitled.png%22&amp;amp;x-id=GetObject" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;h3 id="interacting-with-container">&lt;strong>Interacting with Container&lt;/strong>&lt;/h3>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2dbb0e16-7e9b-48f1-ad3b-abafce2dcbcf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221006%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20221006T173231Z&amp;amp;X-Amz-Expires=86400&amp;amp;X-Amz-Signature=2a3587d064d141a805b5d1a7d96c4d1ea81c645a95328ed5cc85311eda0e21e2&amp;amp;X-Amz-SignedHeaders=host&amp;amp;response-content-disposition=filename%20%3D%22Untitled.png%22&amp;amp;x-id=GetObject" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;h3 id="image-management">&lt;strong>Image Management&lt;/strong>&lt;/h3>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d9be5a36-e5e3-40aa-9c7c-cd8d58ceb18e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221006%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20221006T173247Z&amp;amp;X-Amz-Expires=86400&amp;amp;X-Amz-Signature=896935809e938fa77cc814061d4e837a463de8c62ce0a4caef5e3b328af1828a&amp;amp;X-Amz-SignedHeaders=host&amp;amp;response-content-disposition=filename%20%3D%22Untitled.png%22&amp;amp;x-id=GetObject" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;h3 id="image-transfer">Image Transfer&lt;/h3>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/75bff3bb-1768-4108-9657-7175b99f2e1a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221006%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20221006T173301Z&amp;amp;X-Amz-Expires=86400&amp;amp;X-Amz-Signature=8f4b5e867c25e6d27fe76f862a0e89f91b33cc4f733985f68728dae6b93bb3ba&amp;amp;X-Amz-SignedHeaders=host&amp;amp;response-content-disposition=filename%20%3D%22Untitled.png%22&amp;amp;x-id=GetObject" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;h3 id="builder-main">&lt;strong>Builder Main&lt;/strong>&lt;/h3>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/11671f7b-fad2-4fd9-8f1a-1208e29c3cf5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221006%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20221006T173316Z&amp;amp;X-Amz-Expires=86400&amp;amp;X-Amz-Signature=23d57186a2453e9713920e899cf6899163a2315aacc6cedc4402ec4fcb766fa0&amp;amp;X-Amz-SignedHeaders=host&amp;amp;response-content-disposition=filename%20%3D%22Untitled.png%22&amp;amp;x-id=GetObject" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>Docker - Images</title><link>https://wdragj.github.io/post/docker-images/</link><pubDate>Thu, 06 Oct 2022 17:04:33 +0000</pubDate><guid>https://wdragj.github.io/post/docker-images/</guid><description>&lt;p>&lt;strong>Docker Images&lt;/strong> are read-only templates comprised of multiple layers which act as a blueprint of the container environment.&lt;/p>
+&lt;p>Docker Images are built by specifying instructions inside a special file called &lt;strong>Dockerfile&lt;/strong>.&lt;/p>
+&lt;p>Dockerfile allows us to define instructions to create a customized container environment.&lt;/p>
+&lt;p>We can execute the Docker build command on a Dockerfile to create a Docker Image.&lt;/p>
+&lt;p>This Docker image can then be used to create one or more instances of Docker containers associated with that image.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4575d8e2-ac32-44f1-a285-937288680f07/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221006%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20221006T170717Z&amp;amp;X-Amz-Expires=86400&amp;amp;X-Amz-Signature=f05453ff7180559c129793efea80aebb878d3365d0e454880ad6afdc8d4c4ce5&amp;amp;X-Amz-SignedHeaders=host&amp;amp;response-content-disposition=filename%20%3D%22Untitled.png%22&amp;amp;x-id=GetObject" alt="Docker Process" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h3 id="running-containers-from-docker-image">&lt;strong>Running Containers from Docker Image&lt;/strong>&lt;/h3>
+&lt;p>Steps to create a Docker Image and run a Container&lt;/p>
+&lt;p>&lt;strong>Step 1:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Create a Dockerfile.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Step 2:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Run the following command in the terminal and it will create a docker image of the application and download all the necessary dependencies needed for the application to run successfully.&lt;/li>
+&lt;li>&lt;code>docker build -t &amp;lt;tag to give to your image&amp;gt;&lt;/code>&lt;/li>
+&lt;li>This will start building the image.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Step 3:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>We have successfully created a Dockerfile and a respective Docker image for the same.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Step 4:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Run the following command in the terminal and it will create a running container with all the needed dependencies and start the application.&lt;/li>
+&lt;li>&lt;code>docker run -p 9000:80 &amp;lt;tag-name&amp;gt;&lt;/code>&lt;/li>
+&lt;li>The 9000 is the port we want to access our application on.&lt;/li>
+&lt;li>80 is the port the container is exposing for the host to access.&lt;/li>
+&lt;/ul>
+&lt;h3 id="useful-docker-image-commands">Useful Docker Image commands:&lt;/h3>
+&lt;p>&lt;code>docker images&lt;/code> See the list of Docker images on the system&lt;/p>
+&lt;p>&lt;code>docker build -t &amp;lt;tag name&amp;gt; .&lt;/code> Build the container image&lt;/p>
+&lt;p>&lt;code>docker run -dp 3000:3000 &amp;lt;tag name&amp;gt;&lt;/code> Start the app container using the image&lt;/p>
+&lt;p>&lt;code>docker rmi &amp;lt;Image ID&amp;gt;&lt;/code> Removing Docker Images&lt;/p>
+&lt;p>&lt;code>docker images -q&lt;/code> Return the Image ID’s only&lt;/p>
+&lt;p>&lt;code>docker inspect &amp;lt;name&amp;gt;&lt;/code> Used to see the details fo an image or container&lt;/p></description></item><item><title>Docker and its basic concepts</title><link>https://wdragj.github.io/post/getting-started/</link><pubDate>Wed, 05 Oct 2022 13:27:19 +0000</pubDate><guid>https://wdragj.github.io/post/getting-started/</guid><description>&lt;h2 id="what-is-docker">W﻿hat is Docker?&lt;/h2>
+&lt;p>Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.&lt;/p>
+&lt;h2 id="what-are-the-benefits-of-docker">What are the benefits of Docker?&lt;/h2>
+&lt;ul>
+&lt;li>The key benefit of Docker is that it allows users to &lt;strong>package an application with all of its dependencies into a standardized unit&lt;/strong> for software development&lt;/li>
+&lt;li>Unlike virtual machines, containers do not have high overhead and hence enable more efficient usage of the underlying system and resources&lt;/li>
+&lt;/ul>
+&lt;h2 id="terminology">Terminology&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>Dockerfile&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Is a simple text file with instructions to build a Docker image.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Images&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>The blueprints of our application which form the basis of containers.&lt;/li>
+&lt;li>An image is a combination of a file system and parameters.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Containers&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Created from Docker images and run the actual application.&lt;/li>
+&lt;li>Containers are instances of Docker images that can be run using the Docker run command.&lt;/li>
+&lt;li>The basic purpose of Docker is to run containers.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Docker Daemon&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>The background service running on the host that manages building, running and distributing Docker containers&lt;/li>
+&lt;li>The daemon is the process that runs in the operating system which clients talk to.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Docker Client&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>The command line tool that allows the user to interact with the daemon. More generally, there can be other forms of clients too - such as &lt;a href="https://kitematic.com/" target="_blank" rel="noopener">Kitematic&lt;/a> which provide a GUI to the users.&lt;/li>
+&lt;li>The command line tool that allows the user to interact with the daemon&lt;/li>
+&lt;li>More generally, there can be other forms of clients too - such as &lt;a href="https://kitematic.com/" target="_blank" rel="noopener">Kitematic&lt;/a> which provide a GUI to the users.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Docker Hub&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>A &lt;a href="https://hub.docker.com/search?q=&amp;amp;type=image" target="_blank" rel="noopener">registry&lt;/a> of Docker images.&lt;/li>
+&lt;li>You can think of the registry as a directory of all available Docker images.&lt;/li>
+&lt;li>If required, one can host their own Docker registries and can use them for pulling images.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="docker-architecture">Docker architecture&lt;/h2>
+&lt;p>Docker uses a client-server architecture. The Docker &lt;em>client&lt;/em> talks to the Docker &lt;em>daemon&lt;/em>, which does the heavy lifting of building, running, and distributing your Docker containers. The Docker client and daemon &lt;em>can&lt;/em> run on the same system, or you can connect a Docker client to a remote Docker daemon. The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface. Another Docker client is Docker Compose, that lets you work with applications consisting of a set of containers.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://docs.docker.com/engine/images/architecture.svg" alt="Docker Architecture Diagram" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h3 id="the-docker-daemonhttpsdocsdockercomget-startedoverviewthe-docker-daemon">The Docker daemon&lt;a href="https://docs.docker.com/get-started/overview/#the-docker-daemon" target="_blank" rel="noopener">&lt;/a>&lt;/h3>
+&lt;p>The Docker daemon (&lt;code>dockerd&lt;/code>) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.&lt;/p>
+&lt;h3 id="the-docker-clienthttpsdocsdockercomget-startedoverviewthe-docker-client">The Docker client&lt;a href="https://docs.docker.com/get-started/overview/#the-docker-client" target="_blank" rel="noopener">&lt;/a>&lt;/h3>
+&lt;p>The Docker client (&lt;code>docker&lt;/code>) is the primary way that many Docker users interact with Docker. When you use commands such as &lt;code>docker run&lt;/code>, the client sends these commands to &lt;code>dockerd&lt;/code>, which carries them out. The &lt;code>docker&lt;/code> command uses the Docker API. The Docker client can communicate with more than one daemon.&lt;/p>
+&lt;h3 id="docker-desktophttpsdocsdockercomget-startedoverviewdocker-desktop">Docker Desktop&lt;a href="https://docs.docker.com/get-started/overview/#docker-desktop" target="_blank" rel="noopener">&lt;/a>&lt;/h3>
+&lt;p>Docker Desktop is an easy-to-install application for your Mac, Windows or Linux environment that enables you to build and share containerized applications and microservices. Docker Desktop includes the Docker daemon (&lt;code>dockerd&lt;/code>), the Docker client (&lt;code>docker&lt;/code>), Docker Compose, Docker Content Trust, Kubernetes, and Credential Helper. For more information, see &lt;a href="https://docs.docker.com/desktop/" target="_blank" rel="noopener">Docker Desktop&lt;/a>.&lt;/p>
+&lt;h3 id="docker-registrieshttpsdocsdockercomget-startedoverviewdocker-registries">Docker registries&lt;a href="https://docs.docker.com/get-started/overview/#docker-registries" target="_blank" rel="noopener">&lt;/a>&lt;/h3>
+&lt;p>A Docker &lt;em>registry&lt;/em> stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry.&lt;/p>
+&lt;p>When you use the &lt;code>docker pull&lt;/code> or &lt;code>docker run&lt;/code> commands, the required images are pulled from your configured registry. When you use the &lt;code>docker push&lt;/code> command, your image is pushed to your configured registry.&lt;/p>
+&lt;h3 id="docker-objectshttpsdocsdockercomget-startedoverviewdocker-objects">Docker objects&lt;a href="https://docs.docker.com/get-started/overview/#docker-objects" target="_blank" rel="noopener">&lt;/a>&lt;/h3>
+&lt;p>When you use Docker, you are creating and using images, containers, networks, volumes, plugins, and other objects. This section is a brief overview of some of those objects.&lt;/p>
+&lt;h4 id="images">Images&lt;/h4>
+&lt;p>An &lt;em>image&lt;/em> is a read-only template with instructions for creating a Docker container. Often, an image is &lt;em>based on&lt;/em> another image, with some additional customization. For example, you may build an image which is based on the &lt;code>ubuntu&lt;/code> image, but installs the Apache web server and your application, as well as the configuration details needed to make your application run.&lt;/p>
+&lt;p>You might create your own images or you might only use those created by others and published in a registry. To build your own image, you create a &lt;em>Dockerfile&lt;/em> with a simple syntax for defining the steps needed to create the image and run it. Each instruction in a Dockerfile creates a layer in the image. When you change the Dockerfile and rebuild the image, only those layers which have changed are rebuilt. This is part of what makes images so lightweight, small, and fast, when compared to other virtualization technologies.&lt;/p>
+&lt;h4 id="containers">Containers&lt;/h4>
+&lt;p>A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state.&lt;/p>
+&lt;p>By default, a container is relatively well isolated from other containers and its host machine. You can control how isolated a container’s network, storage, or other underlying subsystems are from other containers or from the host machine.&lt;/p>
+&lt;p>A container is defined by its image as well as any configuration options you provide to it when you create or start it. When a container is removed, any changes to its state that are not stored in persistent storage disappear.&lt;/p></description></item></channel></rss>
