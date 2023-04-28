@@ -87,23 +87,23 @@ experience:
         * As a squad leader, it was my duty to lead conferences and settle problems and complaints of my squad at our unit.
         * Created and implemented an automated process of updating the gun bulletin board.
 
-  - title: "English Tutor"
-      company: Pagoda Academy
-      company_url: ""
-      company_logo: 
-      location: Seoul, South Korea
-      date_start: "2020-05-01"
-      date_end: "2020-07-31"
-      description:
+  # - title: "English Tutor"
+  #     company: Pagoda Academy
+  #     company_url: ""
+  #     company_logo: 
+  #     location: Seoul, South Korea
+  #     date_start: "2020-05-01"
+  #     date_end: "2020-07-31"
+  #     description:
 
-  - title: "English Translator"
-      company: Yonsei University Health System
-      company_url: ""
-      company_logo: 
-      location: Seongnam, Gyeonggi, South Korea
-      date_start: "2020-04-01"
-      date_end: "2020-07-31"
-      description:
+  # - title: "English Translator"
+  #     company: Yonsei University Health System
+  #     company_url: ""
+  #     company_logo: 
+  #     location: Seongnam, Gyeonggi, South Korea
+  #     date_start: "2020-04-01"
+  #     date_end: "2020-07-31"
+  #     description:
 
   - title: "Bachelor in Computer Science (Year 1)"
     company: University of Wisconsin-Madison
