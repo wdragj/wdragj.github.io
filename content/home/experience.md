@@ -44,7 +44,7 @@ experience:
 
   - title: "Undergraduate Student Researcher"
       company: Korea Advanced Institute of Science and Technology
-      company_url: ""
+      company_url: "https://www.kaist.ac.kr/en/"
       company_logo: KAIST-logo
       location: Dogok-dong, Seoul, South Korea
       date_start: "2022-07-01"
@@ -59,7 +59,7 @@ experience:
 
   - title: "Undergraduate Student"
       company: Korea Advanced Institute of Science and Technology
-      company_url: ""
+      company_url: "https://www.kaist.ac.kr/en/"
       company_logo: KAIST-logo
       location: Dogok-dong, Seoul, South Korea
       date_start: "2022-03-01"
