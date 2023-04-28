@@ -45,7 +45,7 @@ experience:
   - title: "Undergraduate Student Researcher"
     company: Korea Advanced Institute of Science and Technology
     company_url: "https://www.kaist.ac.kr/en/"
-    company_logo:
+    company_logo: KAIST-logo
     location: Dogok-dong, Seoul, South Korea
     date_start: "2022-07-01"
     date_end: "2022-09-01"
@@ -60,7 +60,7 @@ experience:
   - title: "Undergraduate Student"
     company: Korea Advanced Institute of Science and Technology
     company_url: "https://www.kaist.ac.kr/en/"
-    company_logo:
+    company_logo: KAIST-logo
     location: Dogok-dong, Seoul, South Korea
     date_start: "2022-03-01"
     date_end: "2022-06-01"
@@ -98,7 +98,7 @@ experience:
   - title: "English Translator"
     company: Yonsei University Health System
     company_url: ""
-    company_logo: Yonsei-logo
+    company_logo:
     location: Seongnam, Gyeonggi, South Korea
     date_start: "2020-04-01"
     date_end: "2020-07-01"
