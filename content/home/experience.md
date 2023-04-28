@@ -26,30 +26,58 @@ experience:
     company: NEXTLab
     company_url: "http://www.nextlab.ai/en/"
     company_logo: NEXTLab-logo
-    location: Seoul, Republic of Korea
+    location: Seoul, South Korea
     date_start: "2022-10-04"
     date_end: "2022-12-31"
     description: |2-
-        Worked in the IAS(Intelligent Automation Service) team to develop AI-based service development.
-
-        Was a part of the PlantyM - NewsPaper OCR project, which is an event driven micro service that runs serverless on the AWS cloud.
+        Advisor: IAS(Intelligent Automation Service) team
+        Project: PlantyM - NewsPaper OCR
         
-        PlantyM - NewsPaper OCR project uses different deep learning AI modules with Computer Vision and Natural Language Processing to recognize images and text to make an automated e-newspaper service.
-        
-        Involved in…
-        * Implementing Event Driven Architecture code
+        * AI-based service development (Deep Learning AI modules, CV, and NLP)
+        * Event driven architecture code @ AWS Lambda
+        * Serverless architecture @ AWS cloud
+        * RESTful API @ Node.js
+        * Serverless workflows @ AWS Step Functions
+        * Building, testing, and deploying @ Docker
         * Enhancing and evaluating AI modules
-        * Creating and implementing multiple algorithms and data structures which groups and categorizes news articles efficiently
-        * Building RESTful API using node.js
-        * Building, testing, and deploying applications quickly through Docker containers
-        * Running containers and code on the cloud, providing a serverless, event-driven compute service using AWS lambda
-        * Building serverless workflows using AWS step functions
+        * Creation and implementation of multiple algorithms and data structures
+
+  - title: "Undergraduate Student Researcher"
+      company: Korea Advanced Institute of Science and Technology
+      company_url: ""
+      company_logo: 
+      location: Dogok-dong, Seoul, South Korea
+      date_start: "2022-07-01"
+      date_end: "2022-09-31"
+      description: |2-
+          Advisor: KAIST, Dr. Minseok Kim
+          Project: Abandoned Dogs
+          * Awarded 1st place
+          * AI service development
+          * Hybrid Recommendation System (Content-based Filtering & Collaborative Filtering)
+          * Project presentation
+
+  - title: "Undergraduate Student"
+      company: Korea Advanced Institute of Science and Technology
+      company_url: ""
+      company_logo: 
+      location: Dogok-dong, Seoul, South Korea
+      date_start: "2022-03-01"
+      date_end: "2022-06-31"
+      description: |2-
+          * Programming Fundamentals
+          * Data Structure & Algorithms
+          * Python Programming / NumPy / Pandas
+          * Python Data Processing / Analysis / Visualization
+          * ROS
+          * Full Stack Development
+          * AI & Big Data
 
   - title: "Assistant to drill instructor, Sergeant"
     company: ROK Army
     company_url: "https://www.army.mil.kr/webapp/user/indexMain.do?siteId=english"
     company_logo: ROKA-logo
-    location: Gangwon-do, Republic of Korea
+    location: Gangwon-do, South Korea
     date_start: "2020-08-22"
     date_end: "2022-02-17"
     description: |2-
@@ -57,6 +85,24 @@ experience:
         * As an assistant to the drill instructor, it was my duty to train and teach trainees basic army knowledge and give basic army training.
         * As a squad leader, it was my duty to lead conferences and settle problems and complaints of my squad at our unit.
         * Created and implemented an automated process of updating the gun bulletin board.
+
+  - title: "English Tutor"
+      company: Pagoda Academy
+      company_url: ""
+      company_logo: 
+      location: Seoul, South Korea
+      date_start: "2020-05-01"
+      date_end: "2020-07-31"
+      description: |2-
+
+  - title: "English Translator"
+      company: Yonsei University Health System
+      company_url: ""
+      company_logo: 
+      location: Seongnam, Gyeonggi, South Korea
+      date_start: "2020-04-01"
+      date_end: "2020-07-31"
+      description: |2-
 
   - title: "Bachelor in Computer Science (Year 1)"
     company: University of Wisconsin-Madison
