@@ -48,7 +48,7 @@ experience:
     company_logo: KAIST-logo
     location: Dogok-dong, Seoul, South Korea
     date_start: "2022-07-01"
-    date_end: "2022-09-31"
+    date_end: "2022-09-01"
     description: |2-
         Advisor: KAIST, Dr. Minseok Kim
         Project: Abandoned Dogs
@@ -63,7 +63,7 @@ experience:
     company_logo: KAIST-logo
     location: Dogok-dong, Seoul, South Korea
     date_start: "2022-03-01"
-    date_end: "2022-06-31"
+    date_end: "2022-06-01"
     description: |2-
         * Programming Fundamentals
         * Data Structure & Algorithms
@@ -92,7 +92,7 @@ experience:
     company_logo: 
     location: Seoul, South Korea
     date_start: "2020-05-01"
-    date_end: "2020-07-31"
+    date_end: "2020-07-01"
     description: |2-
 
   - title: "English Translator"
@@ -101,7 +101,7 @@ experience:
     company_logo: 
     location: Seongnam, Gyeonggi, South Korea
     date_start: "2020-04-01"
-    date_end: "2020-07-31"
+    date_end: "2020-07-01"
     description: |2-
 
   - title: "Bachelor in Computer Science (Year 1)"
