@@ -52,6 +52,7 @@ experience:
       description: |2-
           Advisor: KAIST, Dr. Minseok Kim
           Project: Abandoned Dogs
+
           * Awarded 1st place
           * AI service development
           * Hybrid Recommendation System (Content-based Filtering & Collaborative Filtering)
@@ -93,7 +94,7 @@ experience:
       location: Seoul, South Korea
       date_start: "2020-05-01"
       date_end: "2020-07-31"
-      description: |2-
+      description:
 
   - title: "English Translator"
       company: Yonsei University Health System
@@ -102,7 +103,7 @@ experience:
       location: Seongnam, Gyeonggi, South Korea
       date_start: "2020-04-01"
       date_end: "2020-07-31"
-      description: |2-
+      description:
 
   - title: "Bachelor in Computer Science (Year 1)"
     company: University of Wisconsin-Madison
